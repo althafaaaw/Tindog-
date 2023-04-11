@@ -1,0 +1,157 @@
+body{
+  font-family: "Montserrat-black";
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  
+}
+.iphone{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+  
+}
+#features{
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.download-button{
+  margin: 5% 3% 5% 0 ;
+}
+
+.icon{ 
+  color: #ef8172;
+  font-size: 5rem;
+  margin-bottom: 8px;
+}
+p{ 
+  margin: 0 16px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+.feature-box{
+  padding: 48.7031px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+  position: relative;
+  
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  }
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  text-align: center;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+h2{
+  font-family: "Poppins", sans-serif;  
+  font-size: 3rem;
+  font-weight: bold;
+}
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+.card-body{
+  padding: 1.25rem;
+  line-height: 2.5rem;
+}
+#cta
+{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 15%;
+   
+}
+.end{
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+#footer{
+  text-align: center;
+  padding: 5% 15%;
+}
+.social{
+  color: black;
+  padding-bottom: 5%;
+}
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+.spanSpace{
+  padding: 2%;
+ color: black;
+}
+.spanSpace:hover{
+  color: white;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: rgb(66, 66, 66);
+}
